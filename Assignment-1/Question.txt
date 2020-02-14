@@ -1,12 +1,16 @@
 1)
-Bob wants to send an encrypted message to Alice. To share the key Alice encrypts the key for Vigenere Cipher using a row transposition cipher and sends to Bob the secure key for the row transposition cipher through a secure channel. Bob encrypts his message using Vigenere cipher with the key he decrypts from the row transposition cipher. Find out what is the ecrypted message Bob finally sends to Alice.
+Bob wants to send an encrypted message to Alice. To share the key Alice encrypts the key for Vigenere Cipher using a row transposition
+cipher and sends to Bob the secure key for the row transposition cipher through a secure channel. Bob encrypts his message using 
+Vigenere cipher with the key he decrypts from the row transposition cipher. Find out what is the ecrypted message Bob finally sends to 
+Alice.
 
 Input:
 First line of the input contains l, the length of the key of the row transposition cipher.
 
 The next line contains the l elements of the key of the row transposition cipher.
 
-The next line contains a string encypted_key which is the key of the Vigenere Cipher encrypted with the row transposition cipher.(Assume length of the encrypted key is a multiple of the key length given above.)
+The next line contains a string encypted_key which is the key of the Vigenere Cipher encrypted with the row transposition cipher.
+(Assume length of the encrypted key is a multiple of the key length given above.)
 
 The last line contains a string plaintext which is the message Bob wants to encrypt. (Assume the message contains no spaces)
 
@@ -32,12 +36,17 @@ attackpostponeduntiltwoamxyz
 egvrazihzbhhrbwuawapgzwtflykivx
 
 EXPLANATION:
-The ciphertext ttnaaptmtsuoaodwcoixknlypetz when decrypted with the key 4 3 1 2 5 6 7 using row transposition cipher gives the plaintext as attackpostponeduntiltwoamxyz. The plaintext attackpostponeduntiltwoamxyz is the key for the vigenere cipher with repeated key, the message encryptthistextandsendittoalice is encrypted as egvrazihzbhhrbwuawapgzwtflykivx.
+The ciphertext ttnaaptmtsuoaodwcoixknlypetz when decrypted with the key 4 3 1 2 5 6 7 using row transposition cipher gives the plaintext
+as attackpostponeduntiltwoamxyz. The plaintext attackpostponeduntiltwoamxyz is the key for the vigenere cipher with repeated key, the 
+message encryptthistextandsendittoalice is encrypted as egvrazihzbhhrbwuawapgzwtflykivx.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 2)
-Batman sent Commisioner Gordon a message encrypted with the Hill Cipher containing the location of the next strike by the joker. The message is encrypted with Hill Cipher and the key size is 2. The message also contains how the 2 most commonly occouring digrams of the english language ("TH","HE") are encrypted. The message is in uppercase with letters A-Z. White spaces are removed and in case of an incomplete digram Z is added. You need to help Commisioner Gordon decrypt the message, to help prevent the attack.
+Batman sent Commisioner Gordon a message encrypted with the Hill Cipher containing the location of the next strike by the joker. 
+The message is encrypted with Hill Cipher and the key size is 2. The message also contains how the 2 most commonly occouring digrams of 
+the english language ("TH","HE") are encrypted. The message is in uppercase with letters A-Z. White spaces are removed and in case of an
+incomplete digram Z is added. You need to help Commisioner Gordon decrypt the message, to help prevent the attack.
 
 Input:
 First line will contain a string which is the ciphertext.
@@ -60,7 +69,8 @@ ARKHAMCITY
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 3)
-Given a plaintext and key for DES encryption, output the 16 keys used in the encryption process. Also output the result of the first fiestel round (i.e. L1R1).
+Given a plaintext and key for DES encryption, output the 16 keys used in the encryption process. Also output the result of the first 
+fiestel round (i.e. L1R1).
 
 The permutation tables and substitution boxes to be used can be found here.
 
